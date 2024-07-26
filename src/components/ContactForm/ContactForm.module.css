@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 265px;
+  padding: 5px;
+  border: 2px solid #000;
+  border-radius: 8px;
+}
+
+.formItem {
+  display: flex;
+  flex-direction: column;
+}
+
+.error {
+  color: crimson;
+}

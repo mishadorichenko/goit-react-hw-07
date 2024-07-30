@@ -19,14 +19,14 @@ function App() {
   }, [dispatch]);
 
   return (
-    <div>
+    <>
       <h1 className="title"> Phonebook</h1>
       <ContactForm />
       <SearchBox />
       {isLoading && !isError && <Loader />}
       {isError && <ErrorMessage />}
       <ContactList />
-    </div>
+    </>
   );
 }
 
